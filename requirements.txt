@@ -1,0 +1,5 @@
+dash==2.18.2
+pandas
+dash_daq
+plotly.subplots
+plotly.express
