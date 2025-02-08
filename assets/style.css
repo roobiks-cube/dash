@@ -1,0 +1,388 @@
+body {
+    background-color: #fff;
+    #background: linear-gradient(105deg, #F5F5F5, #F5F5F5); /* Slightly brighter ocean gradient on hover */
+    #box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.9), 0px 2px 6px rgba(0, 0, 0, 0.9); /* More pronounced shadow */
+    #transform: translateY(-2px); /* Subtle lift effect */
+
+}
+
+.div1 {
+    border: 1px solid #F5F5F5; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding-bottom: 10px; /* Add padding for inner content */
+    padding-left:10px;
+    margin-top:15px;
+    background-color: #fff; /* Optional: white background */
+    width:900px;
+
+}
+
+.img_species {
+
+    height: 530px;
+    object-fit: contain;
+    margin-left:10px;
+    margin-top:-40px;
+    align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Adjust the width as needed */
+}
+
+.div2 {
+
+    border: 1px solid #F5F5F5; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 0px; /* Add padding for inner content */
+    margin-top:15px;
+    background-color: #ffffff; /* Optional: white background */
+    width:800px;
+
+
+}
+
+
+
+.menu_top {
+
+background: linear-gradient(60deg, #a0d3fc, #fff); /* Gradient mimicking the ocean's shades */
+color: #005584;
+height: 70px;
+#text-decoration: underline #1F77B4 0.1px;
+border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent border to match water theme */
+box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.7), 0px 1px 4px rgba(0, 0, 0, 0.1); /* Depth with softer shadows */
+border-radius: 12px; /* Rounded corners for a flowing feel */
+margin: 10px 5px; /* Maintain spacing */
+padding: 10px;
+padding-left: 50px;
+display: flex; /* Flexbox for alignment */
+align-items: center; /* Vertically center content */
+justify-content: space-between; /* Spread items across the container */
+font-family: 'Roboto', sans-serif; /* Modern and clean font */
+font-size: 30px; /* Slightly smaller font for elegance */
+font-weight: 600; /* Medium-bold text */
+transition: background 0.9s ease, box-shadow 0.3s ease; /* Smooth transitions */
+cursor: pointer; /* Interactive appearance */
+width:1800px;
+
+
+}
+
+
+.menu_top_img {
+    width: 600px;
+    height: 80px;
+    object-fit: contain;
+    position:relative;
+    top:-5px;
+    padding-top:10px;
+    padding-bottom:10px;
+ 
+}
+
+/* Hover effect */
+.menu_top:hover {
+    background-color: #ebeaea; /* Slightly lighter green on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.08); /* Enhanced shadow on hover */
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+}
+
+
+.menu_left {
+    color: #005584; /* White text for contrast */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle and refined shadow */
+    border: 1px solid #D4D4D4; /* Light gray border for separation */
+    border-radius: 8px; /* Smoother corners for a modern design */
+    font-family: 'Arial', sans-serif; /* Clean, professional font */
+    font-size: 16px; /* Comfortable text size */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+height:1900px;
+background: linear-gradient(135deg, #a0eafc, #006d9c); /* Gradient mimicking the ocean's shades */
+border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent border to match water theme */
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 4px rgba(0, 0, 0, 0.1); /* Depth with softer shadows */
+border-radius: 12px; /* Rounded corners for a flowing feel */
+margin: 10px;
+padding: 10px;
+padding-left: 20px;
+display: flex; /* Flexbox for alignment */
+justify-content: space-between; /* Spread items across the container */
+font-family: 'Roboto', sans-serif; /* Modern and clean font */
+text-decoration: none; /* No text decoration */
+transition: background 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+cursor: pointer; /* Interactive appearance */
+
+
+}
+
+
+
+/* Add hover effect for interactivity */
+.menu_left:hover {
+    background-color: #45A049; /* Slightly lighter green on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15), 0px 2px 4px rgba(0, 0, 0, 0.08); /* Enhanced shadow on hover */
+    cursor: pointer; /* Pointer cursor to indicate interactivity */
+}
+
+.tabs1 {
+
+border-radius:10px;
+borderTop:2px solid #007bff;
+margin-top:10px;
+margin-left:5px;
+width: 40%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.tabs2 {
+
+border-radius:10px;
+borderTop:2px solid #007bff;
+margin-top:10px;
+margin-left:5px;
+width: 40%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.tabs3 {
+
+border-radius:10px;
+borderTop:2px solid #007bff;
+margin-top:10px;
+margin-left:5px;
+width: 40%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.tabs4 {
+
+border-radius:10px;
+borderTop:2px solid #007bff;
+margin-top:10px;
+margin-left:5px;
+width: 40%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+.tabs {
+
+border-radius:10px;
+borderTop:2px solid #007bff;
+margin-top:10px;
+margin-left:5px;
+width: 100%;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+
+
+
+.content {
+
+background-color: #f0f0f0;
+
+}
+
+.markdown-style {
+
+    color:  black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    margin-right:10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-left: 4px solid #D1D7E0; /* Accent border on the left */
+border-top: 1px solid #D1D7E0; /* Accent border on the left */
+    line-height: 2; /* Adjust the line height */
+    margin-bottom: 20px; /* Add extra margin if needed */
+
+
+}
+
+
+.markdown-style2 {
+
+    color:  black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color:#FAFAFA;
+    padding: 20px;
+    margin-right:10px;
+    margin-top:10px;
+    border-radius: 10px;
+    border-left: 4px solid #D1D7E0; /* Accent border on the left */
+border-top: 1px solid #D1D7E0; /* Accent border on the left */
+    line-height: 2; /* Adjust the line height */
+    margin-bottom: 20px; /* Add extra margin if needed */
+
+}
+
+.markdown-style3 {
+
+    color:  black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color:#FAFAFA;
+    margin-right:10px;
+    margin-top:20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dotted #CCCCCC;
+    border-left: 4px solid #D1D7E0; /* Accent border on the left */
+border-top: 1px solid #D1D7E0; /* Accent border on the left */
+    line-height: 2; /* Adjust the line height */
+    margin-bottom: 20px; /* Add extra margin if needed */
+
+}
+
+.custom-slider .rc-slider-track {
+    background-color: #C0C2C1; /* Darker track color */
+    height: 5px;              /* Adjust the track thickness */
+    border-radius: 5px;        /* Smooth edges */
+}
+
+.custom-slider .rc-slider-handle {
+    background-color: #fff; /* Darker handle */
+    border: 2px solid #777777; /* Slightly lighter border */
+    height: 20px;              /* Handle size */
+    width: 20px;
+    box-shadow: none;          /* Remove shadow for a flat look */
+}
+
+.custom-slider .rc-slider-handle:hover {
+    background-color: #777777; /* Lighter on hover */
+}
+
+.custom-slider .rc-slider-mark-text {
+    font-size: 14px;           /* Adjust label font size */
+    color: #AAAAAA;            /* Gray color for labels */
+}
+
+/* Active state (when dragging the handle) */
+.custom-slider .rc-slider-handle:active {
+    background-color: #1F77B4; /* Change color while dragging */
+    box-shadow: 0 0 20px #ffc107; /* Enhance glow effect */
+}
+
+
+.custom-slider .rc-slider-mark-text:first-child,
+.custom-slider .rc-slider-mark-text:last-child {
+    color: black;              
+}
+
+
+/* General styling for slider handles (points) */
+.custom-slider .rc-slider-handle {
+    background-color: #1F77B4; /* Set the handle color */
+    border: 3px solid #2CA9FF; /* Add a border around the handle */
+    height: 15px;              /* Adjust the height of the handle */
+    width: 15px;               /* Adjust the width of the handle */
+    box-shadow: 0 0 10px #2CA9FF; /* Add a glowing effect */
+    margin-top: -5px;          /* Align the handle properly */
+    border-radius: 50%;        /* Ensure the handle remains circular */
+}
+
+/* Hover effect for the handle */
+.custom-slider .rc-slider-handle:hover {
+    background-color: #1F77B4; /* Change color on hover */
+    box-shadow: 0 0 15px #2CA9FF; /* Enhance the glowing effect on hover */
+    cursor: pointer;           /* Change the cursor to pointer */
+}
+
+/* Active state (when dragging the handle) */
+.custom-slider .rc-slider-handle:active {
+    background-color: #1F77B4; /* Change color while dragging */
+    box-shadow: 0 0 20px #ffc107; /* Enhance the glow while active */
+}
+
+
+/* General styling for all fixed points (ticks) */
+.custom-slider .rc-slider-dot {
+    background-color: #4CAF50; /* Set the point color */
+    border: 2px solid #8BC34A; /* Add a border around the points */
+    height: 12px;              /* Adjust the height */
+    width: 12px;               /* Adjust the width */
+    margin-left: -6px;         /* Center the points on the track */
+    border-radius: 50%;        /* Make the points circular */
+}
+
+/* Hover effect for the fixed points */
+.custom-slider .rc-slider-dot:hover {
+    background-color: #8BC34A; /* Change color on hover */
+    border: 2px solid #4CAF50; /* Swap border color */
+}
+
+/* Specific style for active (selected) points */
+.custom-slider .rc-slider-dot-active {
+    background-color: #FFC107; /* Highlight selected point */
+    border: 2px solid #FFA000;
+    box-shadow: 0 0 10px #FFC107; /* Add a glowing effect */
+}
+
+/* Hide points if you don’t want them visible */
+.custom-slider .rc-slider-dot {
+    display: none; /* Remove fixed points from view */
+}
+
+
+.map {
+
+border: dotted 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+
+}
+
+.output_div{
+
+padding:10px;
+
+}
+
+.output_div2{
+
+padding-right:20px;
+
+
+}
+
+
+.light{
+padding-bottom:30px;
+
+}
