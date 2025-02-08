@@ -1,7 +1,0 @@
-dash==2.9.3
-numpy
-pandas
-scikit_learn
-plotly
-gunicorn
-dash-daq==0.5.0
